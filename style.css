@@ -78,6 +78,7 @@ button{
  outline: none;
  font-family: 'indie flower','poppins','sans-serif',cursive;
  background-color:hsl(51, 100%, 78%);
+ transition: background-color 0.25s;
 }
 
 button:hover{
@@ -142,6 +143,7 @@ ul li span{
   font-weight: bold;
   border-radius: 50%;
   color: hsl(0, 75%, 46%);
+  transition: color 0.25s, background-color 0.25s;
 }
 
 ul li span:hover{
